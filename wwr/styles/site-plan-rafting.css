@@ -4,27 +4,26 @@
     --primary-color: #2EC4B6;
     --secondary-color: #CBF3F0;
     --accent1-color: #FFFFFF;
-    --accent2-color:#FFBF69;
-
+    --accent2-color: #FFBF69;
 
     --heading-font: 'Poppins bold', sans-serif;
-    --paragraphfont: 'poppins', sans-serif;
+    --paragraph-font: 'Poppins', sans-serif;
 
-    --nav-background-color: #ffffff;
-    --nav-link-color: #ffbf69;
-    --nav-hover-link-color: #cbf3f0;
-    --nav-hover-background-color: #2ec4b6;
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #FFBF69;
+    --nav-hover-link-color: #CBF3F0;
+    --nav-hover-background-color: #2EC4B6;
 }
 
 body {
-    font-family: var(--paragraphfont);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 header {
@@ -49,7 +48,8 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: var(--nav-link-color);
 }
 
