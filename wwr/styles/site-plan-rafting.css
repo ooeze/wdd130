@@ -16,13 +16,13 @@
     --nav-hover-background-color: #2ec4b6;
 }
 
-body{
+body {
     font-family: var(--paragraphfont);
     max-width: 960px;
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
     color: var(--primary-color)
 }
@@ -57,5 +57,3 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-    
-
