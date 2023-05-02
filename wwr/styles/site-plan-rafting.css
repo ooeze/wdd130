@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 :root {
+/* Variables */
     --primary-color: #2EC4B6;
     --secondary-color: #CBF3F0;
     --accent1-color: #FFFFFF;
@@ -20,8 +21,8 @@ body {
     max-width: 960px;
     padding: 20px;
 }
-
-h1, h2, h3, h4, h5 {
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
