@@ -16,6 +16,7 @@ nav a {
 
 h1 {
     color: steelblue;
+    padding-left: 10px;
 }
 
 img {
@@ -28,6 +29,8 @@ img {
 
 p {
     padding: 10px;
+    
+    
 }
 
 main {
@@ -54,7 +57,7 @@ main img {
     float: right;
 }
 
-p {padding: 0;}
+p {padding: 10;}
 
 footer {
     margin-top: 1em;
