@@ -79,4 +79,6 @@ aside h2 {
     top: 0px;
     left: 300px;
 }
-
+aside {
+    position: relative;
+}
