@@ -22,8 +22,19 @@ h1, h2 {
     font-size: var(--heading-font);
     color: var(--primary-color);
 }
-
+/*paragraph */
 p {
     font-size: var(--paragraph-font);
-    color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+/* Hero */
+.hero img {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
 }
