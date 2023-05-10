@@ -14,7 +14,6 @@
 /* Heading Styles */
 
 body {
-    max-width: 960px;
     padding: 20px;
 }
 
@@ -42,14 +41,15 @@ p {
 .hero h1 {
     position: absolute;
     top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 40%;
+    background-color: white;
 }
   
   article {
     position: absolute;
-    bottom: 0;
-    left: 50%;
+    bottom: 0px;
+    right: 50%;
+    top: 50px
 }
 
 h1 {
@@ -58,5 +58,5 @@ h1 {
 
 article img {
     position: relative;
-    float: right;
+    float: right;  
 }
