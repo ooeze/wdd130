@@ -89,8 +89,8 @@ aside h2 {
 }
 
 header, footer {
-    max-width: 840x;
-    width: 0 auto;
+    max-width: 840px;
+    margin: 0 auto;
 }
 header, footer, .grid { /* add the .grid selector */
     max-width: 1200px;
