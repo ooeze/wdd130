@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root {
+    /* Variables */
+    --primary-color: #2EC4B6;
+    --secondary-color: #CBF3F0;
+    --accent1-color: #FFFFFF;
+    --accent2-color: #FFBF69;
+
+    --heading-font: 'Poppins bold', sans-serif;
+    --paragraph-font: 'Poppins', sans-serif;
+}
+
+/* Heading Styles */
+
+body {
+    width: 650px;
+    margin: 0 auto;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    background: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: thick 2px;
+    
+}
+
+header {
+    margin: O auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+fieldset p {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    border: 2px solid rgb(53, 53, 55);
+    background-color: rgb(53, 53, 55);
+    padding: .5rem 8rem;
+    margin: 0 auto;
+    font-size: 10px;
+    /* padding-right: 5px; */
+    
+
+}
+
+label, button, select, input {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1 rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+textarea {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration:underline;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem ;
+    font-size: 1.2rem;
+}
+
+button :hover {
+    background-color: garkgreen
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column2{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.browser {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
