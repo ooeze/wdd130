@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    margin: O auto;
+    margin: 0 auto;
     width: 650px;
 }
 
@@ -75,7 +75,7 @@ fieldset p {
 label, button, select, input {
     padding: 0.5rem;
     color: black;
-    font-size: 1 rem;
+    font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
@@ -107,7 +107,7 @@ button {
 }
 
 button :hover {
-    background-color: garkgreen
+    background-color: darkgreen
 }
 
 .form-item {
