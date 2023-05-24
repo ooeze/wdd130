@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root {
+    /* Variables */
+    --primary-color: rgb(46, 196, 182);
+    --secondary-color: #CBF3F0;
+    --accent1-color: #FFFFFF;
+    --accent2-color: #FFBF69;
+
+    --heading-font: 'Poppins bold', sans-serif;
+    --paragraph-font: 'Poppins', sans-serif;
+}
+/* Heading Styles */
+body {
+    width: 960px;
+    margin: 0 auto;
+    min-width: 500px;
+}
+h1 {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+/* Hero */
+.contact {
+    position: relative;
+}
+.contact img {
+    width: 100%;
+    height: auto;
+}
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    grid-gap: 2rem;
+    padding: 2rem;
+  }
+.logo {
+    display: flex;
+    justify-content: center;
+  }
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 200px;
+  }
+  
+  header a {
+    border: thin #222 solid;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+  }
+/* Footer */
+  
+.sociallinks {
+    position: relative;
+    float: right;
+    padding-right: 60px;
+    top: -30px;
+}
+
+ footer p a{
+    padding-top: 50px;
+    margin: 0px 5px;
+}
+iframe {
+    float: right;
+    width: 50%;
+    height: 500px;
+    padding: 1.8rem;
+    border-radius: 40px;
+}
+ul {
+    padding: 20px;
+    justify-content:space-between;
+    align-items: center;
+    font: var(--heading-font), bold;
+    color: rgb(30, 29, 29);
+}
+li {
+    background-color: rgb(46, 196, 182);
+    padding: 10px;
+    font-weight: bolder;
+    width: 150px;
+    border-radius: 7px;
+}
+aside {
+    margin-top: 35px;
+}
+
+/* Form */
+label, button, select, input {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration:underline;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem ;
+    font-size: 1.2rem;
+}
+
+button :hover {
+    background-color: darkgreen
+}
+
+form {
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+fieldset {
+    margin: .2rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: .5rem;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+background-color: rgb(72, 67, 67);
+width: 300px;
+height: 400px;
+margin: 5px;
+margin-top: 50px;
+border-radius: 15px;
+
+}
+
+.card-image{
+background-color: aqua;
+height: 300px;
+width: 300px;
+margin-bottom:15px ;
+background-size:cover;
+}
+
+.card-1 {
+background-image:url('../images/WhatsApp\ Image\ 2023-04-20\ at\ 18.23.03\ \(1\)\(1\).jpg');
+}
+
+.card-2 {
+background-image:url('../images/pexels-justin-shaifer-1222271.jpg');
+}
+
+.card-3 {
+background-image:url('../images/pexels-pixabay-220453.jpg');
+}
+
+.card h2 {
+    color: white;
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.card p {
+    color: white;
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: -20px;
+}
+
+
+.card:hover {
+    background-color: rgb(46, 196, 182);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease-out
+    
+}
+
+textarea {
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

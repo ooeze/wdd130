@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box; 
+
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+background-color: brown;
+width: 220px;
+height: 400px;
+margin: 10px;
+}
+
+.card-image{
+background-color: aqua;
+height: 150px;
+margin-bottom:15px ;
+background-size: cover;
+}
+
+.card-1 {
+background-image:url('../wwr/images/WhatsApp\ Image\ 2023-04-20\ at\ 18.23.03\ \(1\)\(1\).jpg');
+}
+
+.card-2 {
+background-image: url('../wwr/images/pexels-justin-shaifer-1222271.jpg'');
+}
+
+.card-3 {
+background-image:url('../wwr/images/pexels-pixabay-220453.jpg');
+}
