@@ -15,16 +15,9 @@
 
 body {
     width: 960px;
-    /* padding: 20px; */
     margin: 0 auto;
 }
 
-
-/* h1, h2 {
-    font-size: var(--heading-font);
-    color: black;
-} */
-/*paragraph */
 p {
     font-size: var(--paragraph-font);
     color: var(--accent2-color);
@@ -36,10 +29,8 @@ p {
 }
 
 .hero img {
-    /* display: block; */
     width: 100%;
     height: auto;
-    /* object-fit: cover; */
 }
  .hero article p {
     color: black;
@@ -69,59 +60,58 @@ h1 {
     left: 0;
     right: 0;
     margin: 0 auto;
-    /* margin-right: 10px;
-    margin-top: 10px;
-    margin-left: -40px; */
   }
   
   .hero article img {
     float: right;
     width: 200px;
   }     
-    
-/* Footer */
+
+.card {
+  background-color: rgb(72, 67, 67);
+  width: 220px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 15px;
+  }
   
-.sociallinks {
-    float: right;
-    padding: 0px;
+  .card-image{
+  background-color: aqua;
+  height: 250px;
+  width: 220px;
+  margin-bottom:-9px ;
+  background-size:cover;
 }
-
- footer p{
-    padding-top: 50px;
-    margin: 0px 50px;
-}
-section img {
-    padding-right: 0px;
-    margin: 0px;
-
-}
-/* Figure */
-.adventure figure {
-  display: flex;
-  margin: 0 auto;
-  flex-flow: row;
-  max-width: 960px;
-  margin: 0 auto;
-
-}
- /* figure {
-    /* border: thin #c0c0c0 solid; */
-    /* display: flex;
-    flex-flow: row;
-    padding: 20px;
-    justify-content: center;
-} */ */
-
-.adventure figcaption {
+  .container {
     display: flex;
-    background-color: #222;
-    color: #fff;
-    padding: 0px;
-    text-align: left;
-    padding-top: 50px;
-    flex-flow: row;
-}
-
+} 
+  .card-1 {
+  background-image:url('../images/rafting1.jpg');
+  }
+  
+  .card-2 {
+  background-image:url('../images/rafting2.jpg');
+  }
+  
+  .card-3 {
+  background-image:url('../images//rafting3.jpg');
+  }
+  .card-4 {
+    background-image:url('../images/rafting4.jpg');
+    }
+  .card h2 {
+      color: white;
+      display: block;
+      padding-left: 20px;
+      text-align: left;
+  }
+  .card p {
+      color: white;
+      display: block;
+      padding-left: 20px;
+      text-align: left;
+      margin-top: -20px;
+  }
 /* Header */
 header {
     display: grid;
@@ -149,24 +139,26 @@ header {
     width: 100px;
     text-align: center;
   }
-  /* section, .grid { /* add the .grid selector */
-    /* max-width: 1200px;
-    margin: 0 auto;
-  /* } */
-  /* .grid {
-    display: grid;
-    align-content: center;
-} */
 
-main {
-    grid-column: 2/3;
-    margin: 1rem;
+  /* Footer */
+  
+.sociallinks {
+  position: relative;
+  float: right;
+  padding-right: 10px;
+  top: -30px;
 }
 
-.grid {
-    position: relative;
-    grid-column: 2/2;
-    grid-row: 2/2;
-    max-width: 960px;
-    margin: 0 auto;
+footer p a{
+  position: relative;
+  padding-top: 50px;
+  padding-right: 20px;
+  margin: 0px 5px;
+}
+
+.card:hover {
+    background-color: rgb(46, 196, 182);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease-out;
 }
