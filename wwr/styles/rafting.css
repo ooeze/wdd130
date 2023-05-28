@@ -34,7 +34,7 @@ p {
 }
  .hero article p {
     color: black;
- }
+}
 h1 {
     position: absolute;
     top: 10%;
@@ -50,8 +50,7 @@ h1 {
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.5);
 }
-  
-  .hero article {
+.hero article {
     position: absolute; 
     top: 8rem; 
     padding: 1rem;
@@ -60,58 +59,53 @@ h1 {
     left: 0;
     right: 0;
     margin: 0 auto;
-  }
-  
-  .hero article img {
+}
+.hero article img {
     float: right;
     width: 200px;
-  }     
-
+}     
 .card {
   background-color: rgb(72, 67, 67);
   width: 220px;
   height: 300px;
   margin: 10px;
   border-radius: 15px;
-  }
-  
-  .card-image{
+}
+.card-image{
   background-color: aqua;
   height: 250px;
   width: 220px;
   margin-bottom:-9px ;
   background-size:cover;
 }
-  .container {
+.container {
     display: flex;
 } 
-  .card-1 {
+.card-1 {
   background-image:url('../images/rafting1.jpg');
   }
-  
-  .card-2 {
+.card-2 {
   background-image:url('../images/rafting2.jpg');
   }
-  
-  .card-3 {
+.card-3 {
   background-image:url('../images//rafting3.jpg');
   }
-  .card-4 {
+.card-4 {
     background-image:url('../images/rafting4.jpg');
     }
-  .card h2 {
+.card h2 {
       color: white;
       display: block;
       padding-left: 20px;
       text-align: left;
-  }
-  .card p {
+}
+.card p {
       color: white;
       display: block;
       padding-left: 20px;
       text-align: left;
       margin-top: -20px;
-  }
+}
 /* Header */
 header {
     display: grid;
@@ -119,43 +113,37 @@ header {
     align-items: center;
     grid-gap: 2rem;
     padding: 2rem;
-  }
-  
-  .logo {
+}
+.logo {
     display: flex;
     justify-content: center;
-  }
-  
-  nav {
+}
+nav {
     display: flex;
     justify-content: flex-end;
     padding: 0px 200px;
-  }
+}
   
-  header a {
+header a {
     border: thin #222 solid;
     border: 1px solid black;
     padding: 10px;
     width: 100px;
     text-align: center;
   }
-
   /* Footer */
-  
 .sociallinks {
   position: relative;
   float: right;
   padding-right: 10px;
   top: -30px;
 }
-
 footer p a{
   position: relative;
   padding-top: 50px;
   padding-right: 20px;
   margin: 0px 5px;
 }
-
 .card:hover {
     background-color: rgb(46, 196, 182);
     cursor: pointer;
@@ -166,7 +154,6 @@ footer p a{
   display: flex;
   position: relative;
 }
-
 .grid img {
   width:300px;
   height: 200px;
