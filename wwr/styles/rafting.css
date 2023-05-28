@@ -162,3 +162,19 @@ footer p a{
     transform: scale(1.03);
     transition: all 1s ease-out;
 }
+.grid {
+  display: flex;
+  position: relative;
+}
+
+.grid img {
+  width:300px;
+  height: 200px;
+  margin-top: 80px;
+}
+.grid p {
+  padding-top: 70px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+

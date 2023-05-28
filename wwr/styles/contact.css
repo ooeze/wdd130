@@ -36,34 +36,31 @@ header {
     align-items: center;
     grid-gap: 2rem;
     padding: 2rem;
-  }
+}
 .logo {
     display: flex;
     justify-content: center;
-  }
+}
 nav {
     display: flex;
     justify-content: flex-end;
     padding: 0px 200px;
-  }
-  
-  header a {
+}
+header a {
     border: thin #222 solid;
     border: 1px solid black;
     padding: 10px;
     width: 100px;
     text-align: center;
-  }
+}
 /* Footer */
-  
 .sociallinks {
     position: relative;
     float: right;
     padding-right: 60px;
     top: -30px;
 }
-
- footer p a{
+footer p a{
     padding-top: 50px;
     margin: 0px 5px;
 }
@@ -81,17 +78,19 @@ ul {
     font: var(--heading-font), bold;
     color: rgb(30, 29, 29);
 }
-li {
+li strong{
     background-color: rgb(46, 196, 182);
     padding: 10px;
     font-weight: bolder;
     width: 150px;
-    border-radius: 7px;
+    border-radius: 7px;   
+}
+li {
+    margin: 20px;   
 }
 aside {
     margin-top: 35px;
 }
-
 /* Form */
 label, button, select, input {
     padding: 0.5rem;
@@ -99,14 +98,12 @@ label, button, select, input {
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 textarea {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     text-decoration:underline;
     color: rgba(0, 0, 0, 0.1);
 }
-
 label {
     text-align: left;
     padding-right: 1rem;
@@ -115,7 +112,6 @@ input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
-
 button {
     margin: 1rem;
     background-color: navy;
@@ -125,11 +121,9 @@ button {
     padding: .75rem ;
     font-size: 1.2rem;
 }
-
 button :hover {
     background-color: darkgreen
 }
-
 form {
     margin: 0 auto;
     padding: 1rem;
@@ -143,11 +137,9 @@ fieldset {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: .5rem;
 }
-
 .container {
     display: flex;
 }
-
 .card {
 background-color: rgb(72, 67, 67);
 width: 300px;
@@ -155,9 +147,7 @@ height: 400px;
 margin: 5px;
 margin-top: 50px;
 border-radius: 15px;
-
 }
-
 .card-image{
 background-color: aqua;
 height: 300px;
@@ -165,26 +155,21 @@ width: 300px;
 margin-bottom:15px ;
 background-size:cover;
 }
-
 .card-1 {
 background-image:url('../images/WhatsApp\ Image\ 2023-04-20\ at\ 18.23.03\ \(1\)\(1\).jpg');
 }
-
 .card-2 {
 background-image:url('../images/pexels-justin-shaifer-1222271.jpg');
 }
-
 .card-3 {
 background-image:url('../images/pexels-pixabay-220453.jpg');
 }
-
 .card h2 {
     color: white;
     display: block;
     padding-left: 20px;
     text-align: left;
 }
-
 .card p {
     color: white;
     display: block;
@@ -192,16 +177,12 @@ background-image:url('../images/pexels-pixabay-220453.jpg');
     text-align: left;
     margin-top: -20px;
 }
-
-
 .card:hover {
     background-color: rgb(46, 196, 182);
     cursor: pointer;
     transform: scale(1.03);
     transition: all 1s ease-out
-    
 }
-
 textarea {
     width: 350px;
 }
