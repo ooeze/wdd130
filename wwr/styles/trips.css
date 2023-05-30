@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+:root {
+    /* Variables */
+    --primary-color: rgb(46, 196, 182);
+    --secondary-color: #CBF3F0;
+    --accent1-color: #FFFFFF;
+    --accent2-color: #FFBF69;
+
+    --heading-font: 'Poppins bold', sans-serif;
+    --paragraph-font: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+main img {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    grid-gap: 2rem;
+    padding: 2rem;;
+    position:absolute;
+    padding-left: 100px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 200px;
+}
+header a {
+    border: thin #222 solid;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.copy p {
+  font-size: 20px;
+  padding: 0 300px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: var(--paragraph-font);
+}
+
+/* Button */
+button {
+    margin: 3rem;
+    background-color: navy;
+    color: #fff;
+    padding: .75rem ;
+    font-size: 1.2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 600px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* Container */
+.container {
+    display: flex;
+    padding: 0px 50px;
+    margin-bottom: 50px;
+}
+
+/* Card */
+.card {
+background-color: rgb(0, 0, 0);
+width: 400px;
+height: 100px;
+margin: 5px;
+margin-top: 50px;
+padding-bottom: 200px;
+}
+.card-image{
+background-color: aqua;
+height: 200px;
+width: 300px;
+margin-bottom:15px ;
+background-size:cover;
+margin: 20px;
+}
+.card-1 {
+background-image:url('../images/pexels-hilmi-işılak-11183380.jpg');
+}
+.card-2 {
+background-image:url('../images/pexels-brett-sayles-2348108.jpg');
+}
+.card-3 {
+background-image:url('../images/pexels-tom-fisk-1732281.jpg');
+}
+.card-4 {
+  background-image:url('../images/pexels-prabowo-laksono-11599087.jpg');
+  }
+.card h4 {
+    color: white;
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.card p {
+    color: white;
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: -20px;
+}
+.card:hover {
+    background-color: rgb(46, 196, 182);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease-out
+}
+
+
+/* Footer */
+.sociallinks {
+  position: relative;
+  float: right;
+  padding-right: 60px;
+  top: -5px;
+}
+footer p a{
+  padding-top: 50px;
+  margin: 0px 5px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+h2 {
+  margin-left: 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.table {
+  background-color: black;
+  padding: 50px;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+}
+
+tr :even {
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
