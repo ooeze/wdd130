@@ -55,9 +55,9 @@ header a {
     text-align: center;
 }
 
-.copy p {
+.copy{
   font-size: 20px;
-  padding: 0 300px;
+  /* padding: 0 300px; */
   margin-top: 50px;
   text-align: center;
   font-family: var(--paragraph-font);
@@ -65,14 +65,17 @@ header a {
 
 /* Button */
 button {
-    margin: 3rem;
+    display:block;
+    margin: 0 3rem;
+    margin-top: 2rem;
     background-color: navy;
     color: #fff;
-    padding: .75rem ;
+    padding: 1rem ;
     font-size: 1.2rem;
-    padding-left: 100px;
+    justify-items: center;
+    /* padding-left: 100px;
     padding-right: 100px;
-    margin-left: 600px;
+    margin-left: 600px; */
 }
 button:hover {
   background-color: black;
@@ -178,26 +181,3 @@ td, th {
 tr :even {
   background-color: #000000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

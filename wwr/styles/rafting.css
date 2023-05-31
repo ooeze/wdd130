@@ -173,3 +173,10 @@ footer p a{
     box-shadow: 0 0 30px #333;
 }
 
+.bgimage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+}
+
+
