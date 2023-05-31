@@ -30,7 +30,7 @@ h1 {
 }
 /* Header */
 header {
-    display: grid;
+    display: flex;
     grid-template-columns: 150px auto;
     align-items: center;
     grid-gap: 2rem;
@@ -48,11 +48,12 @@ nav {
     padding: 0px 200px;
 }
 header a {
-    border: thin #222 solid;
-    border: 1px solid black;
+    border: thin white solid;
+    border: 1px solid white;
     padding: 10px;
     width: 100px;
     text-align: center;
+    color: white;
 }
 
 .copy{
@@ -64,7 +65,7 @@ header a {
 }
 
 /* Button */
-button {
+.linkbutton {
     display:block;
     margin: 0 3rem;
     margin-top: 2rem;
@@ -73,13 +74,24 @@ button {
     padding: 1rem ;
     font-size: 1.2rem;
     justify-items: center;
-    /* padding-left: 100px;
-    padding-right: 100px;
-    margin-left: 600px; */
+    margin-bottom: 50px;
 }
-button:hover {
+.linkbutton {
+  color: rgb(255, 255, 255);
+  padding: 14px 55px;
+  text-align: center;
+  display: block;
+}
+.linkbutton:hover {
   background-color: black;
   color: white;
+}
+
+button {
+  color: white;
+  background-color:navy;
+  border: 0;
+  font-size: 20px;
 }
 
 
