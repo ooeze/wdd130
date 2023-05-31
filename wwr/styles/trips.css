@@ -95,6 +95,7 @@ button {
 }
 
 
+
 /* Container */
 .container {
     display: flex;
@@ -193,3 +194,51 @@ td, th {
 tr :even {
   background-color: #000000;
 }
+
+.button1 {
+    display:block;
+    margin: 0 3rem;
+    margin-top: 2rem;
+    background-color: navy;
+    color: #fff;
+    padding: 1rem ;
+    font-size: 1.2rem;
+    justify-items: center;
+    margin-bottom: 50px;
+} 
+.button1 {
+  color: rgb(255, 255, 255);
+  padding: 14px 55px;
+  text-align: center;
+  display: block;
+}
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Container */
+.card-images {
+height: 200px;
+width: 300px;
+margin-bottom:15px ;
+background-size:cover;
+margin: 20px;
+}
+
+.contain{ 
+  display: flex;
+  justify-self:center;
+}
+.card-01 {
+background-image:url('../images/pexels-hilmi-işılak-11183380.jpg');
+}
+.card-02 {
+background-image:url('../images/pexels-brett-sayles-2348108.jpg');
+}
+.card-03 {
+  background-image:url('../images/pexels-tom-fisk-1732281.jpg');
+  }
+  .card-04 {
+    background-image:url('../images/pexels-prabowo-laksono-11599087.jpg');
+  }
